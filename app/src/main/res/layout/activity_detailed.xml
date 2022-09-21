@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+<!--    <TextView-->
+<!--        android:id="@+id/TVLogin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Register"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/purple_200"-->
+<!--        >-->
+
+<!--    </TextView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/TvName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@+id/TVLogin"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:background="@drawable/edittext_outline"-->
+<!--        android:paddingLeft="5dp">-->
+
+<!--    </TextView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/TvPhone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_below="@+id/TvName"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/edittext_outline"-->
+
+<!--            android:paddingLeft="5dp">-->
+
+<!--        </TextView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/TvEmail"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@+id/TvPhone"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:background="@drawable/edittext_outline"-->
+<!--        android:paddingLeft="5dp">-->
+
+<!--    </TextView>-->
+<!--        <TextView-->
+<!--            android:id="@+id/TvAddress"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_below="@+id/TvEmail"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/edittext_outline"-->
+<!--            android:paddingLeft="5dp">-->
+
+<!--        </TextView>-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RvValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </RelativeLayout>
+
+</RelativeLayout>

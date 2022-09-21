@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/TVLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+           >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/EdName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/TVLogin"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_outline"
+            android:hint="Enter your name"
+            android:inputType="text"
+            android:maxLength="20"
+            android:paddingLeft="5dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/EdPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/EdName"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_outline"
+            android:hint="Enter your phone number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="5dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/EdEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/EdPhone"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_outline"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:paddingLeft="5dp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/BtSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/EdEmail"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Submit">
+
+        </Button>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
